@@ -75,6 +75,20 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
+    <!-- 메시지 텍스트뷰 (클릭 속도 표시) -->
+    <TextView
+        android:id="@+id/messageTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/initial_message_text"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/gray"
+        app:layout_constraintTop_toBottomOf="@id/counterTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
     <!-- 학습 정보 텍스트뷰 -->
     <TextView
         android:id="@+id/learningInfoTextView"

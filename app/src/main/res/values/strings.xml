@@ -7,6 +7,7 @@
     <string name="description_text">기본적인 안드로이드 컴포넌트들을 학습해보세요</string>
     <string name="click_button_text">클릭해보세요!</string>
     <string name="initial_counter_text">클릭 횟수: 0</string>
+    <string name="initial_message_text">분당 클릭 수: -</string>
     
     <!-- 학습 정보 -->
     <string name="learning_info_text">📱 안드로이드 스튜디오 학습 프로젝트 - MainActivity, Layout, 이벤트 처리</string>
